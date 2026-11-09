@@ -1,17 +1,49 @@
-# vesselblox
+# VesselBlox Mobile 🚀
 
-A new Flutter project.
+VesselBlox Mobile - #1 Trusted Robux Marketplace Application built with Flutter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌐 Live Web Demo
 
-A few resources to get you started if this is your first Flutter project:
+Aplikasi ini sudah di-deploy secara online dan dapat langsung diakses/dicoba oleh siapa saja melalui browser di HP atau Laptop:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+🔗 **Link Aplikasi**:  
+[**https://muhammad-arqan-anabiel.github.io/E-Commerce-flutter-App-VesselBlox/**](https://muhammad-arqan-anabiel.github.io/E-Commerce-flutter-App-VesselBlox/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Scan QR Code untuk Buka di HP
+
+Arahkan kamera HP Anda ke QR Code berikut untuk langsung membuka aplikasi:
+
+<p align="center">
+  <img src="qr_code_live_app.png" alt="Scan QR Code to Open App" width="220" />
+</p>
+
+---
+
+## 📸 Preview Tampilan
+
+| Mobile View | Tablet View | Group Funds |
+| :---: | :---: | :---: |
+| <img src="Mobile Viewer/iPhone-14-PRO.webp" width="240" /> | <img src="Mobile Viewer/Galaxy-Tab-S7.webp" width="300" /> | <img src="Mobile Viewer/Galaxy-Tab-S7-group-fund.webp" width="300" /> |
+
+---
+
+## 💻 Menjalankan Secara Lokal
+
+### 1. Di Browser
+```bash
+flutter run -d chrome
+```
+
+### 2. Di Desktop Linux
+```bash
+flutter run -d linux
+```
+
+### 3. Di Device Android
+```bash
+flutter run
+```
