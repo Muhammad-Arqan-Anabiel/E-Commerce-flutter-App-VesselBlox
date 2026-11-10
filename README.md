@@ -1,89 +1,59 @@
 # VesselBlox Mobile 🚀
-> **#1 Trusted Robux & Gamepass Marketplace Application**  
-> Aplikasi mobile e-commerce modern berbasis **Flutter** untuk transaksi Robux dan Gamepass Roblox secara aman, cepat, dan transparan.
+
+Aplikasi marketplace berbasis **Flutter** untuk pembelian Robux dan Gamepass Roblox secara cepat, aman, dan transparan.
 
 ---
 
-## 📖 Tentang Aplikasi
-**VesselBlox Mobile** adalah platform marketplace inovatif yang dirancang khusus untuk komunitas pemain Roblox. Aplikasi ini memudahkan pengguna dalam menghitung estimasi harga, memesan Robux melalui berbagai metode resmi (Gamepass, Gifting, dan Group Funds), belanja gamepass dari game-game populer, hingga melacak status pesanan secara langsung (*real-time*).
+## 🌐 Live Web Demo & QR Code
 
-Aplikasi hadir dengan antarmuka futuristik bertema gelap (*Dark/Void Aesthetic*), performa ringan, serta tata letak responsif di berbagai ukuran layar (Smartphone, Tablet, hingga Desktop/Web).
+- 🔗 **Link Aplikasi**: [**Buka VesselBlox Web**](https://muhammad-arqan-anabiel.github.io/E-Commerce-flutter-App-VesselBlox/)
+- 📱 **Scan via HP**:
+
+<p align="center">
+  <img src="qr_code_live_app.png" alt="Scan QR Code" width="200" />
+</p>
 
 ---
 
 ## ✨ Fitur Utama
 
-- 🧮 **Kalkulator Robux Real-Time**: Hitung otomatis harga Robux lengkap dengan simulasi potongan pajak Roblox (tax calculation) dan diskon kupon.
-- 📦 **Pilihan Multi-Metode Transaksi**:
-  - **Gamepass**: Pembelian Robux via pembuatan gamepass sendiri.
-  - **Group Funds**: Pengiriman Robux instan melalui payout grup Roblox.
-  - **Gifting**: Pengiriman item atau gamepass langsung ke akun pengguna.
-- 🎮 **Katalog Gamepass Populer**: Menyediakan gamepass resmi untuk game ternama seperti *Blox Fruits, Blade Ball, Fisch, Pet Simulator 99, Rivals*, dan game populer lainnya.
-- 🛒 **Sistem Keranjang Belanja**: Tambahkan berbagai gamepass ke keranjang dan selesaikan pesanan dalam satu kali transaksi.
-- 🔍 **Pelacakan Status Pesanan (Order Tracking)**: Cek status proses pesanan secara transparan hanya dengan memasukkan Order ID.
-- 💬 **Pusat Bantuan & Live Ticket Chat**: Layanan pesan/tiket terintegrasi untuk berkonsultasi langsung dengan admin/CS mengenai transaksi.
-- 🎟️ **Sistem Referral & Promo**: Masukkan kode referral teman untuk menikmati potongan harga spesial.
-- 🌐 **Dukungan Multi-Bahasa**: Tersedia dalam Bahasa Indonesia dan Bahasa Inggris.
-- 📱 **Desain Responsif & Multi-Platform**: Tampilan adaptif untuk smartphone, tablet, maupun browser.
+- **Kalkulator Robux**: Hitung harga dan simulasi pajak Roblox secara real-time.
+- **Multi-Metode**: Dukungan transaksi via Gamepass, Group Funds, dan Gifting.
+- **Katalog Gamepass**: Beli item game Roblox populer (*Blox Fruits, Blade Ball, Fisch*, dll.).
+- **Pelacakan Pesanan**: Cek status transaksi langsung menggunakan Order ID.
+- **Pusat Bantuan**: Live ticket chat untuk bantuan kendala pesanan.
+- **Multi-Platform**: Tampilan responsif untuk HP, Tablet, dan Web.
 
 ---
 
-## 🌐 Live Web Demo
-Aplikasi ini sudah aktif dan dapat langsung dicoba tanpa instalasi:  
-🔗 [**https://muhammad-arqan-anabiel.github.io/E-Commerce-flutter-App-VesselBlox/**](https://muhammad-arqan-anabiel.github.io/E-Commerce-flutter-App-VesselBlox/)
+## 📸 Preview Tampilan
 
----
-
-## 📱 Scan QR Code (Buka di HP)
-Arahkan kamera HP (Android / iPhone) Anda ke QR Code di bawah untuk membuka aplikasi:
-
-<p align="center">
-  <img src="qr_code_live_app.png" alt="Scan QR Code to Open App" width="220" />
-</p>
-
----
-
-## 📸 Preview Tampilan Aplikasi
-
-| Tampilan Smartphone | Tampilan Tablet | Menu Group Funds |
+| Mobile | Tablet | Group Funds |
 | :---: | :---: | :---: |
-| <img src="Mobile Viewer/iPhone-14-PRO.webp" width="240" /> | <img src="Mobile Viewer/Galaxy-Tab-S7.webp" width="300" /> | <img src="Mobile Viewer/Galaxy-Tab-S7-group-fund.webp" width="300" /> |
+| <img src="Mobile Viewer/iPhone-14-PRO.webp" width="220" /> | <img src="Mobile Viewer/Galaxy-Tab-S7.webp" width="280" /> | <img src="Mobile Viewer/Galaxy-Tab-S7-group-fund.webp" width="280" /> |
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-- **Framework**: [Flutter](https://flutter.dev/) (Dart 3)
-- **Tema Desain**: Custom Material Dark Theme (*Void Black & Ash Contrast*)
-- **Penyimpanan Lokal**: `shared_preferences` (menyimpan pengaturan bahasa & keranjang)
-- **Format & Lokalisasi**: `intl` (format mata uang Rupiah & multi-bahasa)
-- **Koneksi Jaringan**: `http` package
-- **CI/CD Deployment**: GitHub Actions & GitHub Pages
+## 🛠️ Tech Stack
+
+- **Framework**: Flutter & Dart
+- **State & Storage**: `shared_preferences`
+- **Networking**: `http`
+- **Deploy**: GitHub Pages (CI/CD)
 
 ---
 
-## 💻 Panduan Menjalankan Secara Lokal
+## 💻 Cara Menjalankan
 
-1. **Clone repository ini:**
-   ```bash
-   git clone https://github.com/Muhammad-Arqan-Anabiel/E-Commerce-flutter-App-VesselBlox.git
-   cd E-Commerce-flutter-App-VesselBlox
-   ```
+```bash
+flutter pub get
 
-2. **Ambil semua dependency:**
-   ```bash
-   flutter pub get
-   ```
+# Jalankan di Web
+flutter run -d chrome
 
-3. **Jalankan aplikasi sesuai target:**
-   - **Browser (Chrome/Brave)**:
-     ```bash
-     flutter run -d chrome
-     ```
-   - **Desktop Linux**:
-     ```bash
-     flutter run -d linux
-     ```
-   - **HP Android / Emulator**:
-     ```bash
-     flutter run
-     ```
+# Jalankan di Desktop Linux
+flutter run -d linux
+
+# Jalankan di Android
+flutter run
+```
